@@ -1,10 +1,9 @@
-
-div:has(> svg[aria-label="Verified account"]) {
+div:has(> svg[aria-label="Verified account"]), span:has(> svg[aria-label="Verified account"]) {
   position: relative;
   visibility: hidden;
 }
 
-div:has(> svg[aria-label="Verified account"])::after {
+div:has(> svg[aria-label="Verified account"])::after, span:has(> svg[aria-label="Verified account"])::after {
   position: absolute;
   visibility: visible;
   content: '';
