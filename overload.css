@@ -1,6 +1,5 @@
 
 div:has(> svg[aria-label="Verified account"]) {
-  background: red;
   position: relative;
   visibility: hidden;
 }
